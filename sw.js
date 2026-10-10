@@ -2,7 +2,7 @@ const CACHE_NAME = "my-app-v1";
 
 const urlsToCache = [
     "/",
-    "/Blackhole_test.html"
+    "/index.html"
     "/てらさわホーク_ちん毛.mp3"
     "/宇多丸_コノヤロー1.mp3"
     "/宇多丸_コノヤロー2.mp3"
