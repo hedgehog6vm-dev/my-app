@@ -7,7 +7,7 @@ const urlsToCache = [
     "/宇多丸_コノヤロー1.mp3"
     "/宇多丸_コノヤロー2.mp3"
     "/高橋ヨシキ_断捨離.mp3"
-    "/Blackhole.jpg"
+    "/Blackhole.png"
 ];
 
 self.addEventListener("install", event => {
