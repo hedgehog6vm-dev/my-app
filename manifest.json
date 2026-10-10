@@ -1,6 +1,6 @@
 {
-  "name": "練習アプリ",
-  "short_name": "練習",
+  "name": "Blackhole名言集",
+  "short_name": "Blackhole名言集",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
