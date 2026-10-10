@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>音声テスト</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: sans-serif;
+            margin-top: 50px;
+        }
+
+        #count {
+            font-size: 50px;
+            margin: 20px;
+        }
+
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>BLACKHOLE名言集</h1>
+
+    <button id="btn">ちん毛</button>
+
+    <button id="btn2">コノヤロー</button>
+
+    <button id="btn3">断捨離</button>
+
+    <script>
+          const sound = new Audio("てらさわホーク_ちん毛.mp3");
+
+          document.getElementById("btn").addEventListener("click", () => {
+            sound.play();
+        });
+    </script>
+
+    <script>
+          const sound2 = new Audio("宇多丸_コノヤロー2.mp3");
+
+          document.getElementById("btn2").addEventListener("click", () => {
+            sound2.play();
+        });
+
+    </script>
+
+        <script>
+          const sound3 = new Audio("高橋ヨシキ_断捨離.mp3");
+
+          document.getElementById("btn3").addEventListener("click", () => {
+            sound3.play();
+        });
+    </script>
+
+</body>
+</html>
