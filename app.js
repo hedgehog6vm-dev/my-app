@@ -1,7 +1,8 @@
 // ボタンと音声ファイルの対応表
 const audiolist_hawk = [
   { label: "ちん毛", file: "sounds/hawk/hawk1_ちん毛.mp3"},
-  { label: "だめだ", file: "sounds/hawk/hawk2_だめだ.mp3"}
+  { label: "だめだ", file: "sounds/hawk/hawk2_だめだ.mp3"},
+  { label: "トムハンクス", file: "sounds/hawk/hawk3_トムハンクス.mp3"}
 ];
 
 const audiolist_garth = [
