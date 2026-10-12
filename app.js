@@ -1,8 +1,7 @@
 // ボタンと音声ファイルの対応表
 const audiolist_hawk = [
   { label: "ちん毛", file: "sounds/hawk/hawk1_ちん毛.mp3"},
-  { label: "だめだ", file: "sounds/hawk/hawk2_だめだ.mp3"},
-  { label: "トムハンクス", file: "sounds/hawk/hawk3_トムハンクス.mp3"}
+  { label: "だめだ", file: "sounds/hawk/hawk2_だめだ.mp3"}
 ];
 
 const audiolist_garth = [
@@ -10,7 +9,8 @@ const audiolist_garth = [
 ];
 
 const audiolist_yoshiki = [
-  { label: "断捨離", file: "sounds/yoshiki/yoshiki1_断捨離.mp3"}
+  { label: "断捨離", file: "sounds/yoshiki/yoshiki1_断捨離.mp3"},
+  { label: "元気出しなよ", file: "sounds/yoshiki/yoshiki2_元気出しなよ.mp3"}
 ];
 
 const audiolist_uta = [
@@ -34,7 +34,7 @@ audiolist_hawk.forEach(item =>{
   });
 
   //ページにボタンを追加
-  container.appendChild(button);
+  //container.appendChild(button);
 });
 
 //ループでボタンを自動生成（柳下）
@@ -50,7 +50,7 @@ audiolist_garth.forEach(item =>{
   });
 
   //ページにボタンを追加
-  container.appendChild(button);
+  //container.appendChild(button);
 });
 
 //ループでボタンを自動生成（ヨシキ）
@@ -66,7 +66,7 @@ audiolist_yoshiki.forEach(item =>{
   });
 
   //ページにボタンを追加
-  container.appendChild(button);
+  //container.appendChild(button);
 });
 
 //ループでボタンを自動生成（宇多丸）
@@ -82,5 +82,60 @@ audiolist_uta.forEach(item =>{
   });
 
   //ページにボタンを追加
-  container.appendChild(button);
+  //container.appendChild(button);
+});
+
+
+///////////////////////////////////
+
+const categories = [
+  {
+    title: "ホーク",
+    sounds: audiolist_hawk
+  },
+  {
+    title: "柳下",
+    sounds: audiolist_garth
+  },
+  {
+    title: "ヨシキ",
+    sounds: audiolist_yoshiki
+  },
+  {
+    title: "宇多丸",
+    sounds: audiolist_uta
+  }
+];
+
+const pages = document.getElementById("pages");
+
+categories.forEach(category => {
+
+  const page = document.createElement("div");
+  page.className = "page";
+
+  const title = document.createElement("h2");
+  title.textContent = category.title;
+
+  const grid = document.createElement("div");
+  grid.className = "button-grid";
+
+  category.sounds.forEach(item => {
+
+    const button = document.createElement("button");
+
+    button.textContent = item.label;
+
+    button.addEventListener("click", () => {
+      const audio = new Audio(item.file);
+      audio.play();
+    });
+
+    grid.appendChild(button);
+  });
+
+  page.appendChild(title);
+  page.appendChild(grid);
+
+  pages.appendChild(page);
 });
