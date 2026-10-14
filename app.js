@@ -5,7 +5,9 @@ const audiolist_hawk = [
   { label: "トムハンクス", file: "sounds/hawk/hawk3_トムハンクス.mp3"},
   { label: "親分", file: "sounds/hawk/hawk4_親分.mp3"},
   { label: "ひよっこ", file: "sounds/hawk/hawk5_ひよっこ.mp3"},
-  { label: "あぁん？", file: "sounds/hawk/hawk6_あぁん？.mp3"}
+  { label: "あぁん？", file: "sounds/hawk/hawk6_あぁん？.mp3"},
+  { label: "ちん毛", file: "sounds/hawk/hawk7_ちん毛2.mp3"},
+  { label: "具だろ！", file: "sounds/hawk/hawk8_具だろ！.mp3"}
 ];
 
 const audiolist_garth = [
