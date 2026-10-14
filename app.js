@@ -2,6 +2,10 @@
 const audiolist_hawk = [
   { label: "ちん毛", file: "sounds/hawk/hawk1_ちん毛.mp3"},
   { label: "だめだ", file: "sounds/hawk/hawk2_だめだ.mp3"}
+  { label: "トムハンクス", file: "sounds/hawk/hawk3_トムハンクス.mp3"},
+  { label: "親分", file: "sounds/hawk/hawk4_親分.mp3"},
+  { label: "ひよっこ", file: "sounds/hawk/hawk5_ひよっこ.mp3"},
+  { label: "あぁん？", file: "sounds/hawk/hawk6_あぁん？.mp3"}
 ];
 
 const audiolist_garth = [
