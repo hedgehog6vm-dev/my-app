@@ -19,7 +19,9 @@ const audiolist_yoshiki = [
 
 const audiolist_uta = [
   { label: "コノヤロー1", file: "sounds/uta/uta1_コノヤロー1.mp3"},
-  { label: "コノヤロー2", file: "sounds/uta/uta2_コノヤロー2.mp3"}
+  { label: "コノヤロー2", file: "sounds/uta/uta2_コノヤロー2.mp3"},
+  { label: "虐待", file: "sounds/uta/uta3_虐待.mp3"},
+  { label: "ブス", file: "sounds/uta/uta4_ブス.mp3"}
 ];
 
 //ボタンを格納する場所
