@@ -19,11 +19,8 @@
         }
 
         button {
-            font-size: 40px;
             padding: 20px 10px;
             margin-top: 60px;
-            width: 20em;
-            min-height: 200px;
         }
 
         #pages{
@@ -51,8 +48,12 @@
         }
         
         .button-grid button{
+          width: 100%;
+          min-width: 0;
           height:150px;
-          font-size:16px;
+          font-size:24px;
+          white-space:normal;
+          word-break:break-word;
         }
         
 
