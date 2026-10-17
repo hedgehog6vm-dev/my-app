@@ -162,3 +162,10 @@ categories.forEach(category => {
 
   pages.appendChild(page);
 });
+
+function goToPage(index){
+  document.getElementById("pages").scrollTo({
+    left: window.innerWidth * index,
+    behavior: "smooth"
+  });
+}
