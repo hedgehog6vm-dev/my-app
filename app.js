@@ -2,34 +2,43 @@
 const audiolist_hawk = [
   { label: "ちん毛", file: "sounds/hawk/hawk1_ちん毛.mp3"},
   { label: "だめだ", file: "sounds/hawk/hawk2_だめだ.mp3"},
-  { label: "トムハンクス", file: "sounds/hawk/hawk3_トムハンクス.mp3"},
-  { label: "親分", file: "sounds/hawk/hawk4_親分.mp3"},
-  { label: "ひよっこ", file: "sounds/hawk/hawk5_ひよっこ.mp3"},
+  { label: "トムハンクスだよ！", file: "sounds/hawk/hawk3_トムハンクス.mp3"},
+  { label: "オヤブンガダマッチャイナイヨ", file: "sounds/hawk/hawk4_親分.mp3"},
+  { label: "ヒヨッコダナ", file: "sounds/hawk/hawk5_ひよっこ.mp3"},
   { label: "あぁん？", file: "sounds/hawk/hawk6_あぁん？.mp3"},
-  { label: "ちん毛", file: "sounds/hawk/hawk7_ちん毛2.mp3"},
-  { label: "具だろ！", file: "sounds/hawk/hawk8_具だろ！.mp3"},
-  { label: "パンでも買って", file: "sounds/hawk/hawk9_パンでも買って.mp3"},
+  { label: "ちん毛 単品", file: "sounds/hawk/hawk7_ちん毛2.mp3"},
+  { label: "具だろぉ！", file: "sounds/hawk/hawk8_具だろ！.mp3"},
+  { label: "コレデぱんデモカッテ", file: "sounds/hawk/hawk9_パンでも買って.mp3"},
   { label: "ノーガンズ", file: "sounds/hawk/hawk10_ノーガンズ.mp3"},
   { label: "誕生日大塚明夫", file: "sounds/hawk/hawk11_誕生日大塚明夫.mp3"},
   { label: "誕生日田中邦衛", file: "sounds/hawk/hawk12_誕生日田中邦衛.mp3"},
   { label: "誕生日田中邦衛2", file: "sounds/hawk/hawk13_誕生日田中邦衛2.mp3"},
-  { label: "あそぉ", file: "sounds/hawk/hawk14_あそぉ.mp3"}
+  { label: "あそぉ", file: "sounds/hawk/hawk14_あそぉ.mp3"},
+  { label: "フワフワのエケチャン", file: "sounds/hawk/hawk15_フワフワのエケチャン.mp3"},
+  { label: "ヨロシク", file: "sounds/hawk/hawk16_ヨロシク.mp3"},
+  { label: "モチモチ", file: "sounds/hawk/hawk17_モチモチ.mp3"},
+  { label: "チイチャキ命", file: "sounds/hawk/hawk18_チイチャキ命.mp3"},
+  { label: "ヨロシク2", file: "sounds/hawk/hawk19_ヨロシク2.mp3"}
 ];
 
 const audiolist_garth = [
-  { label: "地獄へ行こか", file: "sounds/garth/garth1_地獄へ行こか.mp3"}
+  { label: "地獄へ行こか", file: "sounds/garth/garth1_地獄へ行こか.mp3"},
+  { label: "エケチャン", file: "sounds/garth/garth3_エケチャン.mp3"},
+  { label: "違うだろ", file: "sounds/garth/garth4_違うだろ.mp3"},
+  { label: "ウケすぎや", file: "sounds/garth/garth2_ウケすぎや.mp3"}
 ];
 
 const audiolist_yoshiki = [
   { label: "断捨離", file: "sounds/yoshiki/yoshiki1_断捨離.mp3"},
-  { label: "元気出しなよ", file: "sounds/yoshiki/yoshiki2_元気出しなよ.mp3"}
+  { label: "元気出しなよ", file: "sounds/yoshiki/yoshiki2_元気出しなよ.mp3"},
+  { label: "具材ヴィエ・ドラン", file: "sounds/yoshiki/yoshiki3_具材ヴィエ・ドラン.mp3"}
 ];
 
 const audiolist_uta = [
   { label: "コノヤロー1", file: "sounds/uta/uta1_コノヤロー1.mp3"},
   { label: "コノヤロー2", file: "sounds/uta/uta2_コノヤロー2.mp3"},
-  { label: "虐待", file: "sounds/uta/uta3_虐待.mp3"},
-  { label: "ブス", file: "sounds/uta/uta4_ブス.mp3"}
+  { label: "ギャクターイ", file: "sounds/uta/uta3_虐待.mp3"},
+  { label: "誰も言ってねぇだろ！", file: "sounds/uta/uta4_ブス.mp3"}
 ];
 
 //ボタンを格納する場所
