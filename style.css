@@ -68,7 +68,6 @@ footer{
   display:flex;
   justify-content:space-around;
   align-items:flex-start;
-  padding-top: 5px;
 
   background:black;
   z-index:1000;
@@ -77,6 +76,7 @@ footer{
 footer button{
   flex:1;
   height:100%;
+  margin-top: 5px;
 
   font-size:30px;
   display: flex;
