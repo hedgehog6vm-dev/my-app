@@ -76,14 +76,14 @@ footer{
 footer button{
   flex:1;
   height:100%;
-  margin-top: 5px;
+  margin-top: 1px;
 
   font-size:30px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  border:none;
+  border: none;
   background:black;
   color:white;
 }
