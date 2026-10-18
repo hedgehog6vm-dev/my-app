@@ -68,7 +68,8 @@ footer{
 
   display:flex;
   justify-content:space-around;
-  align-items:center;
+  align-items:flex-start;
+  padding-top: 5px;
 
   background:black;
   z-index:1000;
@@ -81,6 +82,6 @@ footer button{
 
   font-size:30px;
   border:none;
-  background:blue;
+  background:black;
   color:white;
 }
