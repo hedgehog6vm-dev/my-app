@@ -19,21 +19,24 @@ const audiolist_hawk = [
   { label: "モチモチ", file: "sounds/hawk/hawk17_モチモチ.mp3"},
   { label: "チイチャキ命", file: "sounds/hawk/hawk18_チイチャキ命.mp3"},
   { label: "ヨロシク2", file: "sounds/hawk/hawk19_ヨロシク2.mp3"},
-  { label: "アパルトマン", file: "sounds/hawk/hawk20_アパルトマン.mp3"}
+  { label: "アパルトマン", file: "sounds/hawk/hawk20_アパルトマン.mp3"},
+  { label: "バイオハザード", file: "sounds/hawk/hawk21_バイオハザード.mp3"}
 ];
 
 const audiolist_garth = [
   { label: "地獄へ行こか", file: "sounds/garth/garth1_地獄へ行こか.mp3"},
   { label: "エケチャン", file: "sounds/garth/garth3_エケチャン.mp3"},
   { label: "違うだろ", file: "sounds/garth/garth4_違うだろ.mp3"},
-  { label: "ウケすぎや", file: "sounds/garth/garth2_ウケすぎや.mp3"}
+  { label: "ウケすぎや", file: "sounds/garth/garth2_ウケすぎや.mp3"},
+  { label: "逆張りだろ", file: "sounds/garth/garth5_逆張りだろ.mp3"}
 ];
 
 const audiolist_yoshiki = [
   { label: "断捨離", file: "sounds/yoshiki/yoshiki1_断捨離.mp3"},
   { label: "元気出しなよ", file: "sounds/yoshiki/yoshiki2_元気出しなよ.mp3"},
   { label: "具材ヴィエ・ドラン", file: "sounds/yoshiki/yoshiki3_具材ヴィエ・ドラン.mp3"},
-  { label: "元気出していこうよ", file: "sounds/yoshiki/yoshiki4_元気出していこうよ.mp3"}
+  { label: "元気出していこうよ", file: "sounds/yoshiki/yoshiki4_元気出していこうよ.mp3"},
+  { label: "ミニラ", file: "sounds/yoshiki/yoshiki5_ミニラ.mp3"}
 ];
 
 const audiolist_uta = [
