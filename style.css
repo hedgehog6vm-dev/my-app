@@ -1,9 +1,15 @@
 body {
     text-align: center;
-    font-family: sans-serif;
+    font-family:'DotGothic16',sans-serif;
     margin-top: 50px;
     margin: 0px;
-    overflow: hidden;
+    height: 100vh;
+    /*overflow: hidden; */
+}
+
+main{
+  height:calc(100vh - 60px); /* ヘッダー分を引く */
+  overflow-y:auto;
 }
 
 header{
@@ -53,6 +59,7 @@ button {
   min-width: 0;
   height:150px;
   font-size:27px;
+  font-family:'DotGothic16',sans-serif;
   white-space:normal;
   word-break:break-word;
 }
