@@ -20,7 +20,8 @@ const audiolist_hawk = [
   { label: "チイチャキ命", file: "sounds/hawk/hawk18_チイチャキ命.mp3"},
   { label: "ヨロシク2", file: "sounds/hawk/hawk19_ヨロシク2.mp3"},
   { label: "アパルトマン", file: "sounds/hawk/hawk20_アパルトマン.mp3"},
-  { label: "バイオハザード", file: "sounds/hawk/hawk21_バイオハザード.mp3"}
+  { label: "バイオハザード", file: "sounds/hawk/hawk21_バイオハザード.mp3"},
+  { label: "ｲﾔｱｧｧ", file: "sounds/hawk/hawk22_ｲﾔｱｧｧ"}
 ];
 
 const audiolist_garth = [
