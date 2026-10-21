@@ -37,7 +37,8 @@ const audiolist_yoshiki = [
   { label: "元気出しなよ", file: "sounds/yoshiki/yoshiki2_元気出しなよ.mp3"},
   { label: "具材ヴィエ・ドラン", file: "sounds/yoshiki/yoshiki3_具材ヴィエ・ドラン.mp3"},
   { label: "元気出していこうよ", file: "sounds/yoshiki/yoshiki4_元気出していこうよ.mp3"},
-  { label: "ミニラ", file: "sounds/yoshiki/yoshiki5_ミニラ.mp3"}
+  { label: "ミニラ", file: "sounds/yoshiki/yoshiki5_ミニラ.mp3"},
+  { label: "ｳﾙｻｰｲ", file: "sounds/yoshiki/yoshiki6_ｳﾙｻｰｲ.mp3"}
 ];
 
 const audiolist_uta = [
