@@ -34,7 +34,8 @@ const audiolist_garth = [
   { label: "違うだろ", file: "sounds/garth/garth4_違うだろ.mp3"},
   { label: "ウケすぎや", file: "sounds/garth/garth2_ウケすぎや.mp3"},
   { label: "逆張りだろ", file: "sounds/garth/garth5_逆張りだろ.mp3"},
-  { label: "老害バンザイみたいな話だからね", file: "sounds/garth/garth6_老害バンザイみたいな話だからね.mp3"}
+  { label: "老害バンザイみたいな話だからね", file: "sounds/garth/garth6_老害バンザイみたいな話だからね.mp3"},
+  { label: "でっけーな", file: "sounds/garth/garth7_でっけーな.mp3"}
 ];
 
 const audiolist_yoshiki = [
