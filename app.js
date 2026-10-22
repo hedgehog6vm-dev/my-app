@@ -12,7 +12,7 @@ const audiolist_hawk = [
   { label: "ノーガンズ", file: "sounds/hawk/hawk10_ノーガンズ.mp3"},
   { label: "誕生日大塚明夫", file: "sounds/hawk/hawk11_誕生日大塚明夫.mp3"},
   { label: "誕生日田中邦衛", file: "sounds/hawk/hawk12_誕生日田中邦衛.mp3"},
-  { label: "誕生日田中邦衛2", file: "sounds/hawk/hawk13_誕生日田中邦衛2.mp3"},
+  { label: "肩が痛くってよォ", file: "sounds/hawk/hawk13_肩が痛くってよォ"},
   { label: "あそぉ", file: "sounds/hawk/hawk14_あそぉ.mp3"},
   { label: "フワフワのエケチャン", file: "sounds/hawk/hawk15_フワフワのエケチャン.mp3"},
   { label: "ヨロシク", file: "sounds/hawk/hawk16_ヨロシク.mp3"},
