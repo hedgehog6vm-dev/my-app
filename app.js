@@ -21,7 +21,11 @@ const audiolist_hawk = [
   { label: "ヨロシク2", file: "sounds/hawk/hawk19_ヨロシク2.mp3"},
   { label: "アパルトマン", file: "sounds/hawk/hawk20_アパルトマン.mp3"},
   { label: "バイオハザード", file: "sounds/hawk/hawk21_バイオハザード.mp3"},
-  { label: "ｲﾔｱｧｧ", file: "sounds/hawk/hawk22_ｲﾔｱｧｧ.mp3"}
+  { label: "ｲﾔｱｧｧ", file: "sounds/hawk/hawk22_ｲﾔｱｧｧ.mp3"},
+  { label: "観に行きなさいよ！", file: "sounds/hawk/hawk23_観に行きなさいよ！.mp3"},
+  { label: "オスカーおじさんです", file: "sounds/hawk/hawk24_オスカーおじさんです.mp3"},
+  { label: "たばこしか持ってねえよ！", file: "sounds/hawk/hawk25_たばこしか持ってねえよ！.mp3"},
+  { label: "英語わかんねんだよ！", file: "sounds/hawk/hawk26_英語わかんねんだよ！.mp3"}
 ];
 
 const audiolist_garth = [
@@ -29,7 +33,8 @@ const audiolist_garth = [
   { label: "エケチャン", file: "sounds/garth/garth3_エケチャン.mp3"},
   { label: "違うだろ", file: "sounds/garth/garth4_違うだろ.mp3"},
   { label: "ウケすぎや", file: "sounds/garth/garth2_ウケすぎや.mp3"},
-  { label: "逆張りだろ", file: "sounds/garth/garth5_逆張りだろ.mp3"}
+  { label: "逆張りだろ", file: "sounds/garth/garth5_逆張りだろ.mp3"},
+  { label: "老害バンザイみたいな話だからね", file: "sounds/garth/garth6_老害バンザイみたいな話だからね.mp3"}
 ];
 
 const audiolist_yoshiki = [
@@ -46,7 +51,9 @@ const audiolist_uta = [
   { label: "コノヤロー2", file: "sounds/uta/uta2_コノヤロー2.mp3"},
   { label: "ギャクターイ", file: "sounds/uta/uta3_虐待.mp3"},
   { label: "誰も言ってねぇだろ！", file: "sounds/uta/uta4_ブス.mp3"},
-  { label: "子供みたいなこと言わないでよ", file: "sounds/uta/uta5_子供みたいなこと言わないでよ.mp3"}
+  { label: "子供みたいなこと言わないでよ", file: "sounds/uta/uta5_子供みたいなこと言わないでよ.mp3"},
+  { label: "ろ、老害…笑", file: "sounds/uta/uta6_ろ、老害…笑.mp3"},
+  { label: "出ました駄作！", file: "sounds/uta/uta7_出ました駄作！.mp3"}
 ];
 
 //ボタンを格納する場所
