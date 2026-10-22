@@ -3,12 +3,12 @@ body {
     font-family:'DotGothic16',sans-serif;
     margin-top: 50px;
     margin: 0px;
-    height: 100vh;
+    height: 150vh;
     /*overflow: hidden; */
 }
 
 main{
-  height:calc(100vh - 60px); /* ヘッダー分を引く */
+  height:calc(150vh - 60px); /* ヘッダー分を引く */
   overflow-y:auto;
 }
 
