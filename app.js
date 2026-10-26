@@ -180,6 +180,12 @@ categories.forEach(category => {
 });
 
 function goToPage(index){
+
+  window.scrollTo({
+    top: 0,
+    behavior: "instant"
+  });
+
   document.getElementById("pages").scrollTo({
     left: window.innerWidth * index,
     behavior: "smooth"
