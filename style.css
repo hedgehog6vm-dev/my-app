@@ -34,7 +34,7 @@ button {
 #pages{
   /*:calc(100vh - 60px);*/
   margin-top:60px;
-  padding-bottom: 150px;
+  padding-bottom: 10px;
 
   display:flex;
   flex: 1;
