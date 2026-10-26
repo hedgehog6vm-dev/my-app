@@ -48,7 +48,7 @@ button {
 .page{
   min-width:100vw;
   overflow-y: auto;
-  height:calc(100vh - 60px - 80px)
+  height:calc(100vh - 60px - 80px);
 
   padding:15px;
   box-sizing:border-box;
