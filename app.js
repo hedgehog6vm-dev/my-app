@@ -181,9 +181,8 @@ categories.forEach(category => {
 
 function goToPage(index){
 
-  window.scrollTo({
-    top: 0,
-    behavior: "instant"
+  document.querySelectorAll(".page").forEach(page=>{
+    page.scrollTop = 0;
   });
 
   document.getElementById("pages").scrollTo({
