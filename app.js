@@ -168,6 +168,14 @@ categories.forEach(category => {
 
     button.textContent = item.label;
 
+    button.addEventListener("pointerdown", () => {
+      button.classList.add("pressed");
+    });
+
+    button.addEventListener("pointerup", () => {
+      button.classList.remove("pressed");
+    });
+
     button.addEventListener("click", () => {
       const audio = new Audio(item.file);
       audio.play();
