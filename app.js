@@ -113,7 +113,7 @@ audiolist_yoshiki.forEach(item =>{
 //ループでボタンを自動生成（宇多丸）
 audiolist_uta.forEach(item =>{
   const button =
-  document.createElement("nes-btn is-primary");
+  document.createElement("button");
   button.textContent = item.label;
 
   //クリック時の処理を定義
