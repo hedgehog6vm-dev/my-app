@@ -3,12 +3,12 @@ const audiolist_hawk = [
   { label: "ちん毛", file: "sounds/hawk/hawk1_ちん毛.mp3"},
   { label: "だめだ", file: "sounds/hawk/hawk2_だめだ.mp3"},
   { label: "トムハンクスだよ！", file: "sounds/hawk/hawk3_トムハンクス.mp3"},
-  { label: "オヤブンガダマッチャイナイヨ", file: "sounds/hawk/hawk4_親分.mp3"},
-  { label: "ヒヨッコダナ", file: "sounds/hawk/hawk5_ひよっこ.mp3"},
+  { label: "ｵﾔﾌﾞﾝｶﾞﾀﾞﾏｯﾀｲﾅｲﾖ", file: "sounds/hawk/hawk4_親分.mp3"},
+  { label: "ｱｲｶﾜﾗｽﾞﾋﾖｯｺﾀﾞﾅ", file: "sounds/hawk/hawk5_ひよっこ.mp3"},
   { label: "あぁん？", file: "sounds/hawk/hawk6_あぁん？.mp3"},
   { label: "ちん毛 単品", file: "sounds/hawk/hawk7_ちん毛2.mp3"},
   { label: "具だろぉ！", file: "sounds/hawk/hawk8_具だろ！.mp3"},
-  { label: "コレデぱんデモカッテ", file: "sounds/hawk/hawk9_パンでも買って.mp3"},
+  { label: "ｺﾚﾃﾞﾊﾟﾝﾃﾞﾓｶｯﾃ", file: "sounds/hawk/hawk9_パンでも買って.mp3"},
   { label: "ノーガンズ", file: "sounds/hawk/hawk10_ノーガンズ.mp3"},
   { label: "誕生日大塚明夫", file: "sounds/hawk/hawk11_誕生日大塚明夫.mp3"},
   { label: "誕生日田中邦衛", file: "sounds/hawk/hawk12_誕生日田中邦衛.mp3"},
@@ -25,7 +25,8 @@ const audiolist_hawk = [
   { label: "観に行きなさいよ！", file: "sounds/hawk/hawk23_観に行きなさいよ！.mp3"},
   { label: "オスカーおじさんです", file: "sounds/hawk/hawk24_オスカーおじさんです.mp3"},
   { label: "たばこしか持ってねえよ！", file: "sounds/hawk/hawk25_たばこしか持ってねえよ！.mp3"},
-  { label: "英語わかんねんだよ！", file: "sounds/hawk/hawk26_英語わかんねんだよ！.mp3"}
+  { label: "英語わかんねんだよ！", file: "sounds/hawk/hawk26_英語わかんねんだよ！.mp3"},
+  { label: "ｺﾝﾅﾝﾃﾞﾏｼﾀｹﾄﾞｫ", file: "sounds/hawk/hawk27_ｺﾝﾅﾝﾃﾞﾏｼﾀｹﾄﾞｫ.mp3"}
 ];
 
 const audiolist_garth = [
