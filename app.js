@@ -68,7 +68,7 @@ audiolist_hawk.forEach(item =>{
   button.textContent = item.label;
 
   //クリック時の処理を定義
-  button.addEventListener("click", () =>{
+  button.addEventListener("pointerdown", () =>{
     const audio = new Audio(item.file);
     audio.play();
   });
@@ -84,7 +84,7 @@ audiolist_garth.forEach(item =>{
   button.textContent = item.label;
 
   //クリック時の処理を定義
-  button.addEventListener("click", () =>{
+  button.addEventListener("pointerdown", () =>{
     const audio = new Audio(item.file);
     audio.play();
   });
@@ -100,7 +100,7 @@ audiolist_yoshiki.forEach(item =>{
   button.textContent = item.label;
 
   //クリック時の処理を定義
-  button.addEventListener("click", () =>{
+  button.addEventListener("pointerdown", () =>{
     const audio = new Audio(item.file);
     audio.play();
   });
