@@ -36,7 +36,8 @@ const audiolist_garth = [
   { label: "ウケすぎや", file: "sounds/garth/garth2_ウケすぎや.mp3"},
   { label: "逆張りだろ", file: "sounds/garth/garth5_逆張りだろ.mp3"},
   { label: "老害バンザイみたいな話だからね", file: "sounds/garth/garth6_老害バンザイみたいな話だからね.mp3"},
-  { label: "でっけーな", file: "sounds/garth/garth7_でっけーな.mp3"}
+  { label: "でっけーな", file: "sounds/garth/garth7_でっけーな.mp3"},
+  { label: "ちょっと待てよ", file: "sounds/garth/garth8_ちょっと待てよ.mp3"}
 ];
 
 const audiolist_yoshiki = [
@@ -112,7 +113,7 @@ audiolist_yoshiki.forEach(item =>{
 //ループでボタンを自動生成（宇多丸）
 audiolist_uta.forEach(item =>{
   const button =
-  document.createElement("button");
+  document.createElement("nes-btn is-primary");
   button.textContent = item.label;
 
   //クリック時の処理を定義
@@ -166,7 +167,7 @@ categories.forEach(category => {
 
     button.textContent = item.label;
 
-    button.addEventListener("click", () => {
+    button.addEventListener("pointerdown", () => {
       const audio = new Audio(item.file);
       audio.play();
     });
