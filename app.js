@@ -165,7 +165,7 @@ categories.forEach(category => {
   category.sounds.forEach(item => {
 
     const button = document.createElement("button");
-    button.className = "nes-btn";
+    button.className = "nes-btn is-primary";
 
     button.textContent = item.label;
 
