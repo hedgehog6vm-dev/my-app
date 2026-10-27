@@ -62,6 +62,7 @@ const audiolist_uta = [
 //ボタンを格納する場所
 const container = document.getElementById("audioButtons");
 
+/*
 //ループでボタンを自動生成（ホーク）
 audiolist_hawk.forEach(item =>{
   const button =
@@ -69,7 +70,7 @@ audiolist_hawk.forEach(item =>{
   button.textContent = item.label;
 
   //クリック時の処理を定義
-  button.addEventListener("pointerdown", () =>{
+  button.addEventListener("click", () =>{
     const audio = new Audio(item.file);
     audio.play();
   });
@@ -85,7 +86,7 @@ audiolist_garth.forEach(item =>{
   button.textContent = item.label;
 
   //クリック時の処理を定義
-  button.addEventListener("pointerdown", () =>{
+  button.addEventListener("click", () =>{
     const audio = new Audio(item.file);
     audio.play();
   });
@@ -101,7 +102,7 @@ audiolist_yoshiki.forEach(item =>{
   button.textContent = item.label;
 
   //クリック時の処理を定義
-  button.addEventListener("pointerdown", () =>{
+  button.addEventListener("click", () =>{
     const audio = new Audio(item.file);
     audio.play();
   });
@@ -117,7 +118,7 @@ audiolist_uta.forEach(item =>{
   button.textContent = item.label;
 
   //クリック時の処理を定義
-  button.addEventListener("pointerdown", () =>{
+  button.addEventListener("click", () =>{
     const audio = new Audio(item.file);
     audio.play();
   });
@@ -125,7 +126,7 @@ audiolist_uta.forEach(item =>{
   //ページにボタンを追加
   //container.appendChild(button);
 });
-
+*/
 
 ///////////////////////////////////
 
@@ -167,7 +168,7 @@ categories.forEach(category => {
 
     button.textContent = item.label;
 
-    button.addEventListener("pointerdown", () => {
+    button.addEventListener("click", () => {
       const audio = new Audio(item.file);
       audio.play();
     });
