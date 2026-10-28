@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    font-family:'DotGothic16',sans-serif;
+    font-family:'misaki_gothic_2nd',sans-serif;
     margin-top: 50px;
     margin: 0px;
     height: 120vh;
@@ -11,7 +11,7 @@ body {
 
 @font-face {
   font-family: 'misaki_gothic_2nd';
-  src: url('./fonts/misaki_gothic_2nd.ttf') format('ttf'); /* パスやフォーマットは実際のファイルに合わせて変更 */
+  src: url('./fonts/misaki_gothic_2nd.ttf') format('truetype'); /* パスやフォーマットは実際のファイルに合わせて変更 */
   font-weight: normal;
   font-style: normal;
 }
