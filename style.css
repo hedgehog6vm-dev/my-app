@@ -81,8 +81,7 @@ button:active {
 .button-grid{
   display:grid;
   grid-template-columns:repeat(3,1fr);
-  row-gap: 5;
-  column-gap: 10;
+  gap: 5;
 }
 
 .button-grid button{
