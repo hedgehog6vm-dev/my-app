@@ -41,14 +41,14 @@ button {
     touch-action: manipulation;
     -webkit-tap-highlight-color: transparent;
 }
-*/
+
 .nes-btn {
     padding: 20px 10px;
     margin-top: 60px;
     touch-action: manipulation;
     -webkit-tap-highlight-color: transparent;
 }
-
+*/
 button:active {
   transform: scale(0.96);
 }
