@@ -46,7 +46,9 @@ const audiolist_yoshiki = [
   { label: "具材ヴィエ・ドラン", file: "sounds/yoshiki/yoshiki3_具材ヴィエ・ドラン.mp3"},
   { label: "元気出していこうよ", file: "sounds/yoshiki/yoshiki4_元気出していこうよ.mp3"},
   { label: "ミニラ", file: "sounds/yoshiki/yoshiki5_ミニラ.mp3"},
-  { label: "ｳﾙｻｰｲ", file: "sounds/yoshiki/yoshiki6_ｳﾙｻｰｲ.mp3"}
+  { label: "ｳﾙｻｰｲ", file: "sounds/yoshiki/yoshiki6_ｳﾙｻｰｲ.mp3"},
+  { label: "カニじゃん", file: "sounds/yoshiki/yoshiki7_カニじゃん.mp3"},
+  { label: "三頭筋の厚さに詳しい男", file: "sounds/yoshiki/yoshiki8_三頭筋の厚さに詳しい男.mp3"}
 ];
 
 const audiolist_uta = [
