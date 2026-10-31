@@ -26,7 +26,8 @@ const audiolist_hawk = [
   { label: "オスカーおじさんです", file: "sounds/hawk/hawk24_オスカーおじさんです.mp3"},
   { label: "たばこしか持ってねえよ！", file: "sounds/hawk/hawk25_たばこしか持ってねえよ！.mp3"},
   { label: "英語わかんねんだよ！", file: "sounds/hawk/hawk26_英語わかんねんだよ！.mp3"},
-  { label: "ｺﾝﾅﾝﾃﾞﾏｼﾀｹﾄﾞｫ", file: "sounds/hawk/hawk27_ｺﾝﾅﾝﾃﾞﾏｼﾀｹﾄﾞｫ.mp3"}
+  { label: "ｺﾝﾅﾝﾃﾞﾏｼﾀｹﾄﾞｫ", file: "sounds/hawk/hawk27_ｺﾝﾅﾝﾃﾞﾏｼﾀｹﾄﾞｫ.mp3"},
+  { label: "Fuck you asshole", file: "sounds/hawk/hawk28_Fuck you asshole.mp3"}
 ];
 
 const audiolist_garth = [
