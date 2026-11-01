@@ -27,7 +27,11 @@ const audiolist_hawk = [
   { label: "たばこしか持ってねえよ！", file: "sounds/hawk/hawk25_たばこしか持ってねえよ！.mp3"},
   { label: "英語わかんねんだよ！", file: "sounds/hawk/hawk26_英語わかんねんだよ！.mp3"},
   { label: "ｺﾝﾅﾝﾃﾞﾏｼﾀｹﾄﾞｫ", file: "sounds/hawk/hawk27_ｺﾝﾅﾝﾃﾞﾏｼﾀｹﾄﾞｫ.mp3"},
-  { label: "Fuck you asshole", file: "sounds/hawk/hawk28_Fuck you asshole.mp3"}
+  { label: "Fuck you asshole", file: "sounds/hawk/hawk28_Fuck you asshole.mp3"},
+  { label: "恋愛映画はわしが育てた", file: "sounds/hawk/hawk29_恋愛映画はわしが育てた.mp3"},
+  { label: "ヒー", file: "sounds/hawk/hawk30_ヒー.mp3"},
+  { label: "嫌なものー", file: "sounds/hawk/hawk31_嫌なものー.mp3"},
+  { label: "ちゅみみーん", file: "sounds/hawk/hawk32_ちゅみみーん.mp3"}
 ];
 
 const audiolist_garth = [
@@ -49,7 +53,8 @@ const audiolist_yoshiki = [
   { label: "ミニラ", file: "sounds/yoshiki/yoshiki5_ミニラ.mp3"},
   { label: "ｳﾙｻｰｲ", file: "sounds/yoshiki/yoshiki6_ｳﾙｻｰｲ.mp3"},
   { label: "カニじゃん", file: "sounds/yoshiki/yoshiki7_カニじゃん.mp3"},
-  { label: "三頭筋の厚さに詳しい男", file: "sounds/yoshiki/yoshiki8_三頭筋の厚さに詳しい男.mp3"}
+  { label: "三頭筋の厚さに詳しい男", file: "sounds/yoshiki/yoshiki8_三頭筋の厚さに詳しい男.mp3"},
+  { label: "ｧごめんねぇ", file: "sounds/yoshiki/yoshiki9_ｧごめんねぇ.mp3"}
 ];
 
 const audiolist_uta = [
