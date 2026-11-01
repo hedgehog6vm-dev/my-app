@@ -3,7 +3,7 @@ body {
     font-family:'misaki_gothic_2nd',sans-serif;
     margin-top: 50px;
     margin: 0px;
-    height: 120vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     /*overflow: hidden; */
