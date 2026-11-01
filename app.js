@@ -31,7 +31,9 @@ const audiolist_hawk = [
   { label: "恋愛映画はわしが育てた", file: "sounds/hawk/hawk29_恋愛映画はわしが育てた.mp3"},
   { label: "ヒー", file: "sounds/hawk/hawk30_ヒー.mp3"},
   { label: "嫌なものー", file: "sounds/hawk/hawk31_嫌なものー.mp3"},
-  { label: "ちゅみみーん", file: "sounds/hawk/hawk32_ちゅみみーん.mp3"}
+  { label: "ちゅみみーん", file: "sounds/hawk/hawk32_ちゅみみーん.mp3"},
+  { label: "アラビアのロレンスとかさ", file: "sounds/hawk/hawk33_アラビアのロレンスとかさ.mp3"},
+  { label: "そういうやつよ", file: "sounds/hawk/hawk34_そういうやつよ.mp3"}
 ];
 
 const audiolist_garth = [
