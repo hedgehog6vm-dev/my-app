@@ -33,7 +33,9 @@ const audiolist_hawk = [
   { label: "嫌なものー", file: "sounds/hawk/hawk31_嫌なものー.mp3"},
   { label: "ちゅみみーん", file: "sounds/hawk/hawk32_ちゅみみーん.mp3"},
   { label: "アラビアのロレンスとかさ", file: "sounds/hawk/hawk33_アラビアのロレンスとかさ.mp3"},
-  { label: "そういうやつよ", file: "sounds/hawk/hawk34_そういうやつよ.mp3"}
+  { label: "そういうやつよ", file: "sounds/hawk/hawk34_そういうやつよ.mp3"},
+  { label: "ﾁｭﾐﾐ〜ﾝ", file: "sounds/hawk/hawk35_ﾁｭﾐﾐ〜ﾝ.mp3"},
+  { label: "デケーッ", file: "sounds/hawk/hawk36_デケーッ.mp3"}
 ];
 
 const audiolist_garth = [
@@ -44,7 +46,8 @@ const audiolist_garth = [
   { label: "逆張りだろ", file: "sounds/garth/garth5_逆張りだろ.mp3"},
   { label: "老害バンザイみたいな話だからね", file: "sounds/garth/garth6_老害バンザイみたいな話だからね.mp3"},
   { label: "でっけーな", file: "sounds/garth/garth7_でっけーな.mp3"},
-  { label: "ちょっと待てよ", file: "sounds/garth/garth8_ちょっと待てよ.mp3"}
+  { label: "ちょっと待てよ", file: "sounds/garth/garth8_ちょっと待てよ.mp3"},
+  { label: "それ…楽しいんだ？", file: "sounds/garth/garth9_それ…楽しいんだ？.mp3"}
 ];
 
 const audiolist_yoshiki = [
