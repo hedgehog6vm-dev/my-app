@@ -63,7 +63,8 @@ const audiolist_yoshiki = [
   { label: "ｳﾙｻｰｲ", file: "sounds/yoshiki/yoshiki6_ｳﾙｻｰｲ.mp3"},
   { label: "カニじゃん", file: "sounds/yoshiki/yoshiki7_カニじゃん.mp3"},
   { label: "三頭筋の厚さに詳しい男", file: "sounds/yoshiki/yoshiki8_三頭筋の厚さに詳しい男.mp3"},
-  { label: "ｧごめんねぇ", file: "sounds/yoshiki/yoshiki9_ｧごめんねぇ.mp3"}
+  { label: "ｧごめんねぇ", file: "sounds/yoshiki/yoshiki9_ｧごめんねぇ.mp3"},
+  { label: "くだらねー", file: "sounds/yoshiki/yoshiki10_くだらねー.mp3"}
 ];
 
 const audiolist_uta = [
