@@ -35,7 +35,11 @@ const audiolist_hawk = [
   { label: "アラビアのロレンスとかさ", file: "sounds/hawk/hawk33_アラビアのロレンスとかさ.mp3"},
   { label: "そういうやつよ", file: "sounds/hawk/hawk34_そういうやつよ.mp3"},
   { label: "ﾁｭﾐﾐ〜ﾝ", file: "sounds/hawk/hawk35_ﾁｭﾐﾐ〜ﾝ.mp3"},
-  { label: "デケーッ", file: "sounds/hawk/hawk36_デケーッ.mp3"}
+  { label: "デケーッ", file: "sounds/hawk/hawk36_デケーッ.mp3"},
+  { label: "ここは一体どこなんだ？", file: "sounds/hawk/hawk37_ここは一体どこなんだ？.mp3"},
+  { label: "わしの若いころ", file: "sounds/hawk/hawk38_わしの若いころ.mp3"},
+  { label: "私の秘密を知りたい？", file: "sounds/hawk/hawk39_私の秘密を知りたい？.mp3"},
+  { label: "これが本当の黒", file: "sounds/hawk/hawk40_これが本当の黒.mp3"}
 ];
 
 const audiolist_garth = [
