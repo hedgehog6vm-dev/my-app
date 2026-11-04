@@ -165,7 +165,8 @@ document.addEventListener("touchmove", (e) => {
     pulling = false;
 
     // 更新
-    location.reload();
+    loadSounds();
+    renderButtons();
   }
 });
 
