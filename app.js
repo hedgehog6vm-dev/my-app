@@ -74,7 +74,8 @@ const audiolist_uta = [
   { label: "誰も言ってねぇだろ！", file: "sounds/uta/uta4_ブス.mp3"},
   { label: "子供みたいなこと言わないでよ", file: "sounds/uta/uta5_子供みたいなこと言わないでよ.mp3"},
   { label: "ろ、老害…笑", file: "sounds/uta/uta6_ろ、老害…笑.mp3"},
-  { label: "出ました駄作！", file: "sounds/uta/uta7_出ました駄作！.mp3"}
+  { label: "出ました駄作！", file: "sounds/uta/uta7_出ました駄作！.mp3"},
+  { label: "ヤマト、サイコー！", file: "sounds/uta/uta8_ヤマト、サイコー！.mp3"}
 ];
 
 //ボタンを格納する場所
