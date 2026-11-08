@@ -39,7 +39,8 @@ const audiolist_hawk = [
   { label: "ここは一体どこなんだ？", file: "sounds/hawk/hawk37_ここは一体どこなんだ？.mp3"},
   { label: "わしの若いころ", file: "sounds/hawk/hawk38_わしの若いころ.mp3"},
   { label: "私の秘密を知りたい？", file: "sounds/hawk/hawk39_私の秘密を知りたい？.mp3"},
-  { label: "これが本当の黒", file: "sounds/hawk/hawk40_これが本当の黒.mp3"}
+  { label: "これが本当の黒", file: "sounds/hawk/hawk40_これが本当の黒.mp3"},
+  { label: "X-MEN フューチャー&パスト", file: "sounds/hawk/hawk41_X-MEN フューチャー&パスト.mp3"}
 ];
 
 const audiolist_garth = [
@@ -64,7 +65,8 @@ const audiolist_yoshiki = [
   { label: "カニじゃん", file: "sounds/yoshiki/yoshiki7_カニじゃん.mp3"},
   { label: "三頭筋の厚さに詳しい男", file: "sounds/yoshiki/yoshiki8_三頭筋の厚さに詳しい男.mp3"},
   { label: "ｧごめんねぇ", file: "sounds/yoshiki/yoshiki9_ｧごめんねぇ.mp3"},
-  { label: "くだらねー", file: "sounds/yoshiki/yoshiki10_くだらねー.mp3"}
+  { label: "くだらねー", file: "sounds/yoshiki/yoshiki10_くだらねー.mp3"},
+  { label: "お前なんか死ね！", file: "sounds/yoshiki/yoshiki11_お前なんか死ね！.mp3"}
 ];
 
 const audiolist_uta = [
