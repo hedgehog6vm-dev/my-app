@@ -40,7 +40,8 @@ const audiolist_hawk = [
   { label: "わしの若いころ", file: "sounds/hawk/hawk38_わしの若いころ.mp3"},
   { label: "私の秘密を知りたい？", file: "sounds/hawk/hawk39_私の秘密を知りたい？.mp3"},
   { label: "これが本当の黒", file: "sounds/hawk/hawk40_これが本当の黒.mp3"},
-  { label: "X-MEN フューチャー&パスト", file: "sounds/hawk/hawk41_X-MEN フューチャー&パスト.mp3"}
+  { label: "X-MEN フューチャー&パスト", file: "sounds/hawk/hawk41_X-MEN フューチャー&パスト.mp3"},
+  { label: "ちぽんこマンさん", file: "sounds/hawk/hawk42_ちぽんこマンさん.mp3"}
 ];
 
 const audiolist_garth = [
