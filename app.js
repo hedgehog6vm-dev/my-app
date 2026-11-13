@@ -41,7 +41,8 @@ const audiolist_hawk = [
   { label: "私の秘密を知りたい？", file: "sounds/hawk/hawk39_私の秘密を知りたい？.mp3"},
   { label: "これが本当の黒", file: "sounds/hawk/hawk40_これが本当の黒.mp3"},
   { label: "X-MEN フューチャー&パスト", file: "sounds/hawk/hawk41_X-MEN フューチャー&パスト.mp3"},
-  { label: "ちぽんこマンさん", file: "sounds/hawk/hawk42_ちぽんこマンさん.mp3"}
+  { label: "ちぽんこマンさん", file: "sounds/hawk/hawk42_ちぽんこマンさん.mp3"},
+  { label: "ヨクナイッ！", file: "sounds/hawk/hawk43_ヨクナイッ！.mp3"}
 ];
 
 const audiolist_garth = [
@@ -78,7 +79,8 @@ const audiolist_uta = [
   { label: "子供みたいなこと言わないでよ", file: "sounds/uta/uta5_子供みたいなこと言わないでよ.mp3"},
   { label: "ろ、老害…笑", file: "sounds/uta/uta6_ろ、老害…笑.mp3"},
   { label: "出ました駄作！", file: "sounds/uta/uta7_出ました駄作！.mp3"},
-  { label: "ヤマト、サイコー！", file: "sounds/uta/uta8_ヤマト、サイコー！.mp3"}
+  { label: "ヤマト、サイコー！", file: "sounds/uta/uta8_ヤマト、サイコー！.mp3"},
+  { label: "ア○ン・○ックマン", file: "sounds/uta/uta9_ア○ン・○ックマン.mp3"}
 ];
 
 //ボタンを格納する場所
