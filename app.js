@@ -42,7 +42,8 @@ const audiolist_hawk = [
   { label: "これが本当の黒", file: "sounds/hawk/hawk40_これが本当の黒.mp3"},
   { label: "X-MEN フューチャー&パスト", file: "sounds/hawk/hawk41_X-MEN フューチャー&パスト.mp3"},
   { label: "ちぽんこマンさん", file: "sounds/hawk/hawk42_ちぽんこマンさん.mp3"},
-  { label: "ヨクナイッ！", file: "sounds/hawk/hawk43_ヨクナイッ！.mp3"}
+  { label: "ヨクナイッ！", file: "sounds/hawk/hawk43_ヨクナイッ！.mp3"},
+  { label: "ヨクナイッ！ 単品", file: "sounds/hawk/hawk44_ヨクナイッ！ 単品.mp3"}
 ];
 
 const audiolist_garth = [
