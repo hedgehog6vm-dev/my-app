@@ -43,7 +43,9 @@ const audiolist_hawk = [
   { label: "X-MEN フューチャー&パスト", file: "sounds/hawk/hawk41_X-MEN フューチャー&パスト.mp3"},
   { label: "ちぽんこマンさん", file: "sounds/hawk/hawk42_ちぽんこマンさん.mp3"},
   { label: "ヨクナイッ！", file: "sounds/hawk/hawk43_ヨクナイッ！.mp3"},
-  { label: "ヨクナイッ！ 単品", file: "sounds/hawk/hawk44_ヨクナイッ！ 単品.mp3"}
+  { label: "ヨクナイッ！ 単品", file: "sounds/hawk/hawk44_ヨクナイッ！ 単品.mp3"},
+  { label: "良く生きる", file: "sounds/hawk/hawk45_良く生きる.mp3"},
+  { label: "イイハナシダナー", file: "sounds/hawk/hawk46_イイハナシダナー.mp3"}
 ];
 
 const audiolist_garth = [
