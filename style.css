@@ -69,9 +69,10 @@ button {
 
 #sound-tabs button{
   flex:1;
+  border: none;
   height:50px;
   color:white;
-  background:#333;
+  background:black;
 }
 
 #sound-tabs button.active{
