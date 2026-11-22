@@ -212,11 +212,11 @@ pages.addEventListener("scroll", () => {
     pages.scrollLeft / window.innerWidth
   );
 
-  document.querySelectorAll(".tab-btn").forEach(btn=>{
+  document.querySelectorAll(".button").forEach(btn=>{
     btn.classList.remove("active");
   });
 
-  document.querySelectorAll(".tab-btn")[index]
+  document.querySelectorAll(".button")[index]
     ?.classList.add("active");
 
 });
