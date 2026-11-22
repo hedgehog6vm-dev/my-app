@@ -83,7 +83,7 @@ const audiolist_uta = [
   { label: "ろ、老害…笑", file: "sounds/uta/uta6_ろ、老害…笑.mp3"},
   { label: "出ました駄作！", file: "sounds/uta/uta7_出ました駄作！.mp3"},
   { label: "ヤマト、サイコー！", file: "sounds/uta/uta8_ヤマト、サイコー！.mp3"},
-  { label: "ア○ン・○ックマン", file: "sounds/uta/uta9_ア○ン・○ックマン.mp3"}
+  { label: "アラ○・○ックマン", file: "sounds/uta/uta9_ア○ン・○ックマン.mp3"}
 ];
 
 //ボタンを格納する場所
@@ -246,14 +246,33 @@ categories.forEach(category => {
   pages.appendChild(page);
 });
 
-function goToPage(index){
+function goToPage(index, button){
 
   document.querySelectorAll(".page").forEach(page=>{
     page.scrollTop = 0;
   });
+
+  document.querySelectorAll(".button").forEach(btn=>{
+    btn.classList.remove("active");
+  });
+
+  button.classList.add("active");  
 
   document.getElementById("pages").scrollTo({
     left: window.innerWidth * index,
     behavior: "smooth"
   });
 }
+
+function showMainPage(pageId){
+
+  document.querySelectorAll(".main-page")
+    .forEach(page => {
+      page.style.display = "none";
+    });
+
+  document.getElementById(pageId)
+    .style.display = "block";
+}
+
+showMainPage("sound-page");
