@@ -49,37 +49,6 @@ button {
     -webkit-tap-highlight-color: transparent;
 }
 */
-
-.main-page{
-  display:none;
-  height:calc(100vh - 60px - 80px);
-}
-
-#sound-page{
-  display:block;
-}
-
-#sound-tabs{
-  display:flex;
-  position:sticky;
-  top: 60px;
-  z-index:100;
-  background:black;
-}
-
-#sound-tabs button{
-  flex:1;
-  border: none;
-  height:50px;
-  color:white;
-  background:black;
-}
-
-#sound-tabs button.active{
-  color:white;
-  background:#209cee;
-}
-
 button:active {
   transform: scale(0.96);
 }

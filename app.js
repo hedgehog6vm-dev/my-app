@@ -206,21 +206,6 @@ const categories = [
 
 const pages = document.getElementById("pages");
 
-pages.addEventListener("scroll", () => {
-
-  const index = Math.round(
-    pages.scrollLeft / window.innerWidth
-  );
-
-  document.querySelectorAll(".button").forEach(btn=>{
-    btn.classList.remove("active");
-  });
-
-  document.querySelectorAll(".button")[index]
-    ?.classList.add("active");
-
-});
-
 categories.forEach(category => {
 
   const page = document.createElement("div");
@@ -261,33 +246,14 @@ categories.forEach(category => {
   pages.appendChild(page);
 });
 
-function goToPage(index, button){
+function goToPage(index){
 
   document.querySelectorAll(".page").forEach(page=>{
     page.scrollTop = 0;
   });
-
-  document.querySelectorAll(".button").forEach(btn=>{
-    btn.classList.remove("active");
-  });
-
-  button.classList.add("active");  
 
   document.getElementById("pages").scrollTo({
     left: window.innerWidth * index,
     behavior: "smooth"
   });
 }
-
-function showMainPage(pageId){
-
-  document.querySelectorAll(".main-page")
-    .forEach(page => {
-      page.style.display = "none";
-    });
-
-  document.getElementById(pageId)
-    .style.display = "block";
-}
-
-showMainPage("sound-page");
