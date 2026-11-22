@@ -206,6 +206,21 @@ const categories = [
 
 const pages = document.getElementById("pages");
 
+pages.addEventListener("scroll", () => {
+
+  const index = Math.round(
+    pages.scrollLeft / window.innerWidth
+  );
+
+  document.querySelectorAll(".tab-btn").forEach(btn=>{
+    btn.classList.remove("active");
+  });
+
+  document.querySelectorAll(".tab-btn")[index]
+    ?.classList.add("active");
+
+});
+
 categories.forEach(category => {
 
   const page = document.createElement("div");
